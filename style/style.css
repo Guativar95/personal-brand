@@ -1,12 +1,11 @@
 :root {
     --margin-section: 20px;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 24px;
-    --color-title: #1F00F5;
-    --color-subtitle: #3134D4;
-    --color-text: #3164D4;
-    --color-tex: ;
+    --sm: 16px;
+    --md: 18px;
+    --lg: 26px;
+    --color-title: #120907;
+    --color-subtitle: #1e1e36;
+    --color-text: #545b88;
 }
 
 * {
@@ -16,7 +15,8 @@
 }
 
 body {
-    background-image: url(../style/img/fondo.jpg);
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 0px;
@@ -29,13 +29,12 @@ body {
 .container {
     margin: 10px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: #d0e0ed;
     border-radius: 20px;
-    width: 800px;
+    width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     backdrop-filter: saturate(180%) blur(20px);
-    font-style: italic;
 }
 
 .perfil {
@@ -49,7 +48,7 @@ body {
     border-radius: 60%;
     width: 260px;
     height: 260px;
-    border: 4px solid  #1c57bf61;
+    border: 4px solid  #d0e0ed;
 }
 
 .correo {
@@ -83,7 +82,6 @@ h1 {
     color: var(--color-title);
     line-height: 1.7;
 }
-
 
 
 h3 {
@@ -193,6 +191,7 @@ nav li a {
     .container {
         display: flex;
         flex-direction: column;
+        background-color: #d0e0ed;
     }
 }
 
@@ -204,7 +203,6 @@ nav li a {
         height: 100%;
         display: flex;
         align-content: center;
-        background-color: black;
     }
 }
 
@@ -216,10 +214,10 @@ nav li a {
         height: 100%;
         display: flex;
         align-content: center;
-        background-color: black;
+
     }
     .container {
-        background-color: rgba(255, 255, 255, .4);
+        background-color: #d0e0ed;
         backdrop-filter: saturate(180%) blur(20px);
     }
 }
