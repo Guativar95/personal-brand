@@ -3,22 +3,17 @@
     --sm: 16px;
     --md: 18px;
     --lg: 26px;
-    --color-title: #120907;
-    --color-subtitle: #1e1e36;
-    --color-text: #545b88;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.5;
+    --color-title: white;
+    --color-subtitle: white;
+    --color-text: white;
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    background-color: black;
+    background-image: url(../style/img/fondo.jpg);
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center ;
+    background-attachment: fixed;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -29,7 +24,7 @@ body {
 .container {
     margin: 10px;
     padding: 20px;
-    background-color: #d0e0ed;
+    opacity: 3;
     border-radius: 20px;
     width: 900px;
     display: grid;
@@ -69,7 +64,7 @@ body {
 .contact_info {}
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: var(--md);
 }
@@ -113,9 +108,11 @@ li {
 ul {
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 p {
+    color: white;
     font-size: var(--sm);
     text-align: justify;
     margin: 0 18px 0 0;
@@ -152,7 +149,7 @@ nav li {
 }
 
 nav li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
